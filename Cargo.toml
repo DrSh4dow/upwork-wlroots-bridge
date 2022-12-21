@@ -7,7 +7,7 @@ license = "MIT"
 description = "Implementation for Wlroots (Sway, Wayfire, Hikari, River, etc.) of Gnome Screenshot and Idle DBUS Server, which Upwork uses to capture the screen as proof of work. "
 readme = "README.md"
 categories = ["command-line-utilities"]
-keywords = ["cli", "upwork", "wayland", "wlroots", "sway", "screenshot"]
+keywords = ["cli", "upwork", "wayland", "wlroots", "sway"]
 repository = "https://github.com/drsh4dow/upwork-wlroots-bridge"
 homepage = "https://github.com/drsh4dow/upwork-wlroots-bridge"
 
