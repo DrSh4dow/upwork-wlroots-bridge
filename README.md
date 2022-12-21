@@ -17,9 +17,9 @@ running.
 First, you must install the required packages from your distribution package
 manager. These packages are:
 
-- Rust => to use cargo.
-- Grim => screenshot tool used.
-- Swayidle => to calculate idle time.
+- [Rust](https://www.rust-lang.org/) => to use cargo.
+- [Grim](https://sr.ht/~emersion/grim/) => screenshot tool used.
+- [Swayidle](https://github.com/swaywm/swayidle) => to calculate idle time.
 
 ##### Arch Linux
 
