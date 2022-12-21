@@ -51,7 +51,8 @@ cargo install upwork-wlroots-bridge
 ### :pencil2: Usage
 
 You can use `upwork-wlroots-bridge` with no options at all and launch it as is. 
-In this mode, you will receive no feedback. 
+In this mode, you will receive no feedback, but that's it. 
+You can now use Upwork desktop client as normal once you have launched the server. 
 ```
 upwork-wlroots-bridge
 ```
