@@ -1,6 +1,6 @@
 [package]
 name = "upwork-wlroots-bridge"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 authors = ["Daniel Moretti <daniel.morettiv@gmail.com>"]
 license = "MIT"
@@ -17,5 +17,6 @@ homepage = "https://github.com/drsh4dow/upwork-wlroots-bridge"
 async-process = "1.6.0"
 clap = { version = "4.0.29", features = ["derive"] }
 futures-lite = "1.12.0"
+regex = "1.7.0"
 tokio = { version = "1.23.0", features = ["full"] }
 zbus = { version = "3.6.2" }
