@@ -35,6 +35,8 @@ async fn main() -> Result<()> {
         .build()
         .await?;
 
+    println!("DBUS Server initialized successfully!");
+
     loop {
         std::future::pending::<()>().await;
     }
