@@ -5,7 +5,7 @@ use std::{
 
 use clap::Parser;
 use tokio::task;
-use upwork_wl_bridge::{idle::Idle, opts::Opts, screenshot::Screenshot};
+use upwork_wlroots_bridge::{idle::Idle, opts::Opts, screenshot::Screenshot};
 use zbus::{ConnectionBuilder, Result};
 
 #[tokio::main()]

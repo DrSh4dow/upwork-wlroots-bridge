@@ -1,7 +1,7 @@
 [package]
 name = "upwork-wlroots-bridge"
 version = "0.1.0"
-edition = "2022"
+edition = "2021"
 authors = ["Drsh4dow <daniel.morettiv@gmail.com>"]
 license = "MIT"
 categories = ["command-line-utilities"]
@@ -10,10 +10,8 @@ repository = "https://github.com/drsh4dow/upwork-wlroots-bridge"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.68"
 async-process = "1.6.0"
 clap = { version = "4.0.29", features = ["derive"] }
-event-listener = "2.5.3"
 futures-lite = "1.12.0"
 tokio = { version = "1.23.0", features = ["full"] }
 zbus = { version = "3.6.2" }
