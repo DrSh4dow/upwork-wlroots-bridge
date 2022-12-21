@@ -47,7 +47,6 @@ impl Screenshot {
         (out, filename.into())
     }
 
-    /// TODO
     async fn screenshot_window(
         &self,
         include_frame: bool,

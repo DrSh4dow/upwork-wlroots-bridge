@@ -15,6 +15,8 @@ pub struct Idle {
 }
 
 impl Idle {
+    /// start the IO loop to watch out for swayidle messages and update the 
+    /// last_active time utilized by get_idletime
     pub async fn start(last_active: Arc<Mutex<Instant>>) -> Result<()> {
         let mut child = Command::new("swayidle")
             .arg("-w")

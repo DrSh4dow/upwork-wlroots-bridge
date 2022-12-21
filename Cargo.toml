@@ -2,10 +2,14 @@
 name = "upwork-wlroots-bridge"
 version = "0.1.0"
 edition = "2021"
-authors = ["Drsh4dow <daniel.morettiv@gmail.com>"]
+authors = ["Daniel Moretti <daniel.morettiv@gmail.com>"]
 license = "MIT"
+description = "Implementation for Wlroots (Sway, Wayfire, Hikari, River, etc.) of Gnome Screenshot and Idle DBUS Server, which Upwork uses to capture the screen as proof of work. "
+readme = "README.md"
 categories = ["command-line-utilities"]
+keywords = ["cli", "upwork", "wayland", "wlroots", "sway", "screenshot"]
 repository = "https://github.com/drsh4dow/upwork-wlroots-bridge"
+homepage = "https://github.com/drsh4dow/upwork-wlroots-bridge"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
