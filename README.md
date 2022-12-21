@@ -50,7 +50,7 @@ cargo install upwork-wlroots-bridge
 
 ### :pencil2: Usage
 
-You can use upwork-wlroots-bridge with no options at all and launch it as is. 
+You can use `upwork-wlroots-bridge` with no options at all and launch it as is. 
 In this mode, you will receive no feedback. 
 ```
 upwork-wlroots-bridge
@@ -65,4 +65,4 @@ upwork-wlroots-bridge -wD   # The D stands for Debug, which will present some mo
 ```
 
 When you are done choosing your ideal flags, then you can daemonize the server in 
-your preferred way (tmux, systemd services, nohup).
+your preferred way ([tmux](https://github.com/tmux/tmux/wiki), [systemd services](https://wiki.archlinux.org/title/systemd), [nohup](https://low-orbit.net/linux-how-to-nohup)).
