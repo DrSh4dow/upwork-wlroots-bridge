@@ -49,3 +49,20 @@ cargo install upwork-wlroots-bridge
 ```
 
 ### :pencil2: Usage
+
+You can use upwork-wlroots-bridge with no options at all and launch it as is. 
+In this mode, you will receive no feedback. 
+```
+upwork-wlroots-bridge
+```
+
+Besides that, `upwork-wlroots-bridge` comes with some valuable flags like `-w`, 
+which will present a warning dialog and sound through zenity, and pw-play when 
+a screenshot is incoming (so you can refocus your work and not be surprised by 
+those annoying "surprise" screenshots).
+```
+upwork-wlroots-bridge -wD   # The D stands for Debug, which will present some more info
+```
+
+When you are done choosing your ideal flags, then you can daemonize the server in 
+your preferred way (tmux, systemd services, nohup).
