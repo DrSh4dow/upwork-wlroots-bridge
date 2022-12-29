@@ -29,7 +29,8 @@ impl Screenshot {
         if self.opts.show_warning {
             let _ = Command::new("pw-play")
                 .arg("/usr/share/sounds/freedesktop/stereo/screen-capture.oga")
-                .spawn();
+                .output()
+                .await;
             let _ = Command::new("zenity")
                 .arg("--warning")
                 .arg(
@@ -68,7 +69,8 @@ impl Screenshot {
         if self.opts.show_warning {
             let _ = Command::new("pw-play")
                 .arg("/usr/share/sounds/freedesktop/stereo/screen-capture.oga")
-                .spawn();
+                .output()
+                .await;
             let _ = Command::new("zenity")
                 .arg("--warning")
                 .arg("--text=\"incoming window capture, make sure to focus the correct window (you have 2 secs once you close this warning)\"")
@@ -142,7 +144,8 @@ impl Screenshot {
         if self.opts.show_warning {
             let _ = Command::new("pw-play")
                 .arg("/usr/share/sounds/freedesktop/stereo/screen-capture.oga")
-                .spawn();
+                .output()
+                .await;
             let _ = Command::new("zenity")
                 .arg("--warning")
                 .arg("--text=\"incoming Area capture, Go to the correct workspace\"")
