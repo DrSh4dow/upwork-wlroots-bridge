@@ -21,12 +21,14 @@ async fn main() -> Result<()> {
         .await?;
 
     let last_active = Arc::new(Mutex::new(Instant::now()));
+    let last_line = Arc::new(Mutex::new(String::from("resume")));
 
-    task::spawn(Idle::start(last_active.clone()));
+    task::spawn(Idle::start(last_active.clone(),last_line.clone()));
 
     let idle = Idle {
         opts: Opts::parse(),
         last_active,
+        last_line
     };
 
     let _ = ConnectionBuilder::session()?
